@@ -110,9 +110,6 @@ function App() {
       let check = true;
       for (let i = 0; i < prev.length; i++) {
         //CHECK
-        console.log(
-          (check)
-        );
         if (
           (check && (prev[i].time / (prev[i].rolls === 0 ? 1 : prev[i].rolls),
           time / (roll === 0 ? 1 : roll)))

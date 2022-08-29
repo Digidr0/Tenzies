@@ -1,6 +1,6 @@
-import { nanoid } from "nanoid";
-import React from "React";
 import Die from "./Die.jsx";
+import React from "react";
+import { nanoid } from "nanoid";
 function Settings(props) {
   const [active, setActive] = React.useState([false, false, true]);
   const [numbers, setNumbers] = React.useState([false, true]);

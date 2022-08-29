@@ -1,5 +1,3 @@
-import React from "React";
-
 function Scoreboard(props) {
   return (
     <div className="Scoreboard">
