@@ -48,7 +48,7 @@ function Settings(props) {
           key={nanoid()}
           isHeld={numbers[0]}
           handleClick={() => {
-            props.changeUseNumbers(true)
+            props.changeUseNumbers(true);
             setNumbers([true, false]);
           }}
           activeColor={props.activeColor}
@@ -59,12 +59,15 @@ function Settings(props) {
           key={nanoid()}
           isHeld={numbers[1]}
           handleClick={() => {
-            props.changeUseNumbers(false)
+            props.changeUseNumbers(false);
             setNumbers([false, true]);
           }}
           activeColor={props.activeColor}
           useNumbers={false}
         />
+      </div>
+      <div className="link-span">
+        <span>Developed by <a href="https://github.com/Digidr0">Digidro</a> in 2022</span>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: monospace;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -23,6 +23,10 @@
 }
 p{
   margin: 0;
+}
+a{
+  
+  color: inherit;
 }
 
 body{

@@ -176,4 +176,10 @@ td {
 .countSetting > .die > span,
 .useNumberSetting > .die > span {
   color: white;
+  text-align: center;
+}
+.link-span{
+  position: fixed;
+  bottom: 0;
+  opacity: 0.5;
 }
